@@ -3,14 +3,14 @@ package com.example.demo.bean;
 import java.util.List;
 
 public class User {
-    Integer userid;
-    String name;
-    String password;
-    String photo;
-    Integer status;
-    Integer gender;
-    List<Tz> tzList;
-    List<Comment> commentList;
+    private Integer userid;
+    private String name;
+    private String password;
+    private String photo;
+    private Integer status;
+    private Integer gender;
+    private List<Tz> tzList;
+    private List<Comment> commentList;
 
     public Integer getGender() {
         return gender;

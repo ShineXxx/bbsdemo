@@ -3,16 +3,16 @@ package com.example.demo.bean;
 import java.util.List;
 
 public class Tz {
-    Integer tzid;
-    Integer userid;
-    Integer extra;
-    String title;
-    String text;
-    String photo;
-    String time;
-    User user;
-    Integer numofC;
-    List<Comment> commentList;
+    private Integer tzid;
+    private Integer userid;
+    private Integer extra;
+    private String title;
+    private String text;
+    private String photo;
+    private String time;
+    private User user;
+    private Integer numofC;
+    private List<Comment> commentList;
 
     public Integer getExtra() {
         return extra;

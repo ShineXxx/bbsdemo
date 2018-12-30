@@ -1,12 +1,12 @@
 package com.example.demo.bean;
 
 public class Comment {
-    Integer commentid;
-    Integer userid;
-    Integer tzid;
-    String text;
-    String time;
-    User user;
+    private Integer commentid;
+    private Integer userid;
+    private Integer tzid;
+    private String text;
+    private String time;
+    private User user;
 
 
     public User getUser() {
